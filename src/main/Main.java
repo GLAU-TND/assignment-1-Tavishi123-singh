@@ -90,7 +90,7 @@ public class Main {
                     }
                     break;
                 case 5:
-                    System.out.println("Terminating ...");
+                    System.out.println("Exiting ...");
                     reply = false;
                     break;
                 default:
