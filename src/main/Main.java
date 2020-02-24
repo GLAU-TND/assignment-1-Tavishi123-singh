@@ -15,9 +15,9 @@ public class Main {
         String email;
         boolean reply = true;
         System.out.println();
-        System.out.println("|||||||||||||||||||||||||||||||||||||||||||||");
+        System.out.println("############################################");
         System.out.println("Welcome to Tavishi's Contact List Program");
-        System.out.println("|||||||||||||||||||||||||||||||||||||||||||||");
+        System.out.println("############################################");
         System.out.println();
         while (reply == true) {
             System.out.println("-------------------------------------------");
