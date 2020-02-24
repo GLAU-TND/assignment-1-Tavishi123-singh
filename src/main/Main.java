@@ -78,22 +78,22 @@ public class Main {
                         System.out.println((i + 1) + ". " + contactList.getArrayOfNames().get(i));
                     }
                     if (contactList.getArrayOfNames().size() != 0) {
-                        System.out.println("Press the number against the contact to delete it: ");
+                        System.out.println("Press the no. against the contact to delete it: ");
 
                         int index = scanner.nextInt();
                         String tempName = contactList.getArrayOfNames().get(index - 1).toString();
                         contactList.delete(index);
                         System.out.println(tempName + " has been deleted from your contacts");
                     } else {
-                        System.out.println("NO CONTACTS AVAILABLE");
+                        System.out.println("No Contacts");
                     }
                     break;
                 case 5:
-                    System.out.println("Exiting ...");
+                    System.out.println("Stopping ...");
                     reply = false;
                     break;
                 default:
-                    System.out.println("Invalid Input enter the right input:");
+                    System.out.println("Invalid Input, please enter the right input:");
                     break;
             }
 
