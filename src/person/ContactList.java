@@ -1,10 +1,10 @@
 package person;
 
-import personADT.ContactListADT;
+import interfaceADT.ADT;
 
 import java.util.ArrayList;
 
-public class ContactList<Person> implements ContactListADT<Person> {
+public class ContactList<Person> implements ADT<Person> {
     ArrayList arrayOfNames = new ArrayList<String>();
     ArrayList arrayOfFirstName = new ArrayList<String>();
     private Node<Person> head;

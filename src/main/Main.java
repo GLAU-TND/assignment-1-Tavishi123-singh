@@ -1,7 +1,7 @@
 package main;
 
-import definition.ContactList;
-import definition.Person;
+import person.ContactList;
+import person.Person;
 
 import java.util.Scanner;
 
